@@ -61,7 +61,7 @@ class CodeProcessors::Base
     str << '</'
     str << name
     str << '>'
-    str = "<nontextile>#{str}</nontextile>" if !!options[:textile]
+    str = "<notexttile>#{str}</notexttile>" if !!options[:textile]
     str
   end
 
